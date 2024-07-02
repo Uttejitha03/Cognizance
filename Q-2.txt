@@ -1,0 +1,19 @@
+This program will allow the user to find nth term of a fibonacci number series
+Declare the variables a,b,c,n,i as integers
+step1:start
+
+step 2: Initialize a to zero(a=0)
+step 3: Initialize b to one(b=1)
+step 4: Initialize c to zero(c=0)
+
+step 5: DISPLAY Enter a number : 
+step 6: n=INPUT
+step 7: READ n
+ 
+step 8.0: for (Initialize i=2,i<n,increment i every loop) 
+     8.1: SET c=a+b
+     8.2: SET a=b
+     8.3: SET b=c
+step 9: END for
+step 10 : print c
+step 11 : stop

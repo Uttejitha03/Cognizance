@@ -1,0 +1,31 @@
+# finding whether a number is divisible by 3 or not by not using "N%3"
+declare the variables n,sum,sum1,rem,t,q,r as integers
+step1:start
+step2:display,enter a num
+step3:n=input[
+give a number s input n]
+step4:read n
+step5:assign sum=0
+step6:assign rem = n
+step7:while rem>0
+      t= rem%10
+      rem=rem/10
+      sum=sum+i
+     end if
+step8:sum==3 or sum==6 or sum==9
+print "given number is divisible by 3 and true "
+step9: else if
+    sum<=9
+    print " given number is not divisible by 3 and false "
+step10: else
+       assign q=sum
+       assign sum1=0
+       while
+       assign r=q%10
+       assign q=q/10
+       assign sum1 = sum1 +r
+step11:if
+       sum1==3 or sum1==6 or sum1==9
+       print "given number is divisible by 3"
+       else
+       print " FALSE "
